@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: comal-dorado
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --workers 1 --bind 0.0.0.0:$PORT app:app
+    healthCheckPath: /api/salud
+    envVars:
+      - key: PIN_COCINA
+        generateValue: true
+      - key: DATA_DIR
+        value: /var/data
+    disk:
+      name: pedidos
+      mountPath: /var/data
+      sizeGB: 1

@@ -1,0 +1,18 @@
+FOTOS REALES DE TU PUPUSERÍA
+============================
+Guarda aquí tus fotos con estos nombres exactos (jpg, jpeg, png o webp).
+El sitio las detecta solo: no hay que tocar el código.
+
+  local.jpg      -> fachada o interior del local
+  pupusas.jpg    -> pupusas recién hechas
+  comal.jpg      -> el comal con pupusas cocinándose
+  curtido.jpg    -> el curtido
+  salsa.jpg      -> la salsa roja
+  horchata.jpg   -> la horchata o las bebidas
+
+Si falta una foto, se muestra una ilustración en su lugar.
+
+Consejos:
+- Usa fotos horizontales de buena luz (junto a una ventana o con la luz del local).
+- Que pesen menos de 500 KB cada una (en squoosh.app se comprimen gratis).
+- Usa solo fotos que tú tomaste o que tengan licencia libre (Unsplash, Pexels).
